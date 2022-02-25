@@ -20,14 +20,10 @@ details[open] summary {
 a:hover{
     color:blue;
 }
-@media (max-width: 450px){
+@media (max-width: 600px){
     body{
-        color: rgb(191, 226, 247);
+        background-color: rgb(158, 164, 168);
         text-align: center;
-    }
+        color: cornsilk;
 }
-@media print {
-    body {
-        font-size: 12pt;
-    }
 }
