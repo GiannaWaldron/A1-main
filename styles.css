@@ -38,3 +38,8 @@ summary {
     color: cornsilk;
 }
 }
+@media print{
+    body{
+        background-color: white;
+    }
+}
