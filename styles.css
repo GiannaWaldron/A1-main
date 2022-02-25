@@ -1,13 +1,16 @@
+
 details {
     border: 1px solid rgb(3, 1, 1);
     border-radius: 20px;
     padding: .5em .5em 0;
+    font-family: 'Merriweather', serif;
 }
 
 summary {
     font-weight: bold;
     margin: -.5em -.5em 0;
     padding: .5em;
+    font-family: 'Merriweather', serif;
 }
 
 details[open] {
@@ -25,5 +28,13 @@ a:hover{
         background-color: rgb(158, 164, 168);
         text-align: center;
         color: cornsilk;
+}
+details {
+    font-family: sans-serif;
+    color: lightcyan;
+}
+summary {
+    font-family: sans-serif;
+    color: cornsilk;
 }
 }
