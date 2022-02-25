@@ -1,0 +1,33 @@
+details {
+    border: 1px solid rgb(3, 1, 1);
+    border-radius: 20px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    margin-bottom: .5em;
+}
+a:hover{
+    color:blue;
+}
+@media (max-width: 450px){
+    body{
+        color: rgb(191, 226, 247);
+        text-align: center;
+    }
+}
+@media print {
+    body {
+        font-size: 12pt;
+    }
+}
